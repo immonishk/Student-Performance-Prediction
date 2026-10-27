@@ -1,0 +1,42 @@
+{
+  "dataset_rows": 1200,
+  "training_rows": 960,
+  "testing_rows": 240,
+  "features": [
+    "study_hours_per_day",
+    "attendance_percentage",
+    "previous_exam_score",
+    "assignment_average",
+    "sleep_hours_per_night",
+    "extracurricular_hours_per_week"
+  ],
+  "target": "final_score",
+  "best_model_by_rmse": "Linear Regression",
+  "dataset_type": "synthetic educational demonstration data",
+  "metrics": [
+    {
+      "Model": "Linear Regression",
+      "MAE": 5.598051303134811,
+      "RMSE": 6.939113966040927,
+      "R2": 0.5236120143341861
+    },
+    {
+      "Model": "ANN (MLP)",
+      "MAE": 5.639229000589954,
+      "RMSE": 7.044799709493959,
+      "R2": 0.508990313264799
+    },
+    {
+      "Model": "Random Forest",
+      "MAE": 5.807707814673031,
+      "RMSE": 7.2691216862513315,
+      "R2": 0.47722280065481215
+    },
+    {
+      "Model": "Decision Tree",
+      "MAE": 6.7048484705216875,
+      "RMSE": 8.274280338372657,
+      "R2": 0.322649865064643
+    }
+  ]
+}

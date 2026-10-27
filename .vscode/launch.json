@@ -1,0 +1,17 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Student Performance App",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "${workspaceFolder}/RUN.py"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
