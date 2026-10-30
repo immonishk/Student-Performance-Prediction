@@ -88,3 +88,5 @@ The target variable is `final_score`. The dataset is divided into training and t
 ## Important Note
 
 The dataset was generated for educational and experimental purposes. It does not contain actual student records. The predictions demonstrate machine learning functionality and should not be treated as reliable assessments of real students or used as the sole basis for academic decisions.
+
+Author - Monish Kumar (25MDA10035)
